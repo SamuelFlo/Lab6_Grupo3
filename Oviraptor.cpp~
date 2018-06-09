@@ -1,0 +1,26 @@
+#include "Oviraptor.h"
+
+Oviraptor::Oviraptor(int AlturaCresta,bool Plumaje):Dinosaurios(nombre,altura,peso,fecha,sexo,longitud){
+	this->AlturaCresta=AlturaCresta;
+	this->Plumaje=Plumaje;
+	this->nombre=nombre;
+	this->altura=altura;
+	this->peso=peso;
+	this->fecha=fecha;
+	this->sexo=sexo;
+	this->longitud=longitud;
+}
+Oviraptor::Oviraptor(){
+
+}void Oviraptor::setAlturaCresta(int AlturaCresta){
+   this-> AlturaCresta=AlturaCresta;
+}
+int Oviraptor::getAlturaCresta(){
+   return AlturaCresta;
+}
+void Oviraptor::setPlumaje(bool Plumaje){
+   this-> Plumaje=Plumaje;
+}
+bool Oviraptor::getPlumaje(){
+   return Plumaje;
+}

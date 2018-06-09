@@ -1,0 +1,27 @@
+#include "Omnivoros.h"
+#include "Dinosaurios.h"
+
+Omnivoros::Omnivoros(int NumeroMolares,int NumeroColmillos):Dinosaurios(nombre,altura,peso,fecha,sexo,longitud){
+	this->NumeroMolares=NumeroMolares;
+	this->NumeroColmillos=NumeroColmillos;
+	this->nombre=nombre;
+	this->altura=altura;
+	this->peso=peso;
+	this->fecha=fecha;
+	this->sexo=sexo;
+	this->longitud=longitud;
+}
+Omnivoros::Omnivoros(){
+
+}void Omnivoros::setNumeroMolares(int NumeroMolares){
+   this-> NumeroMolares=NumeroMolares;
+}
+int Omnivoros::getNumeroMolares(){
+   return NumeroMolares;
+}
+void Omnivoros::setNumeroColmillos(int NumeroColmillos){
+   this-> NumeroColmillos=NumeroColmillos;
+}
+int Omnivoros::getNumeroColmillos(){
+   return NumeroColmillos;
+}

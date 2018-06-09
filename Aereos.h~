@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+#ifndef AEREOS_H
+#define AEREOS_H
+class Aereos{
+	protected:
+		bool Vuela;
+		bool Plumas;
+	public:
+		Aereos(bool,bool);
+		Aereos();
+		bool getVuela();
+		void setVuela(bool);
+
+		bool getPlumas();
+		void setPlumas(bool);
+
+};
+#endif

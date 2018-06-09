@@ -1,0 +1,26 @@
+#include "Triceraptor.h"
+
+Triceraptor::Triceraptor(int LongitudCuernos,int longitudCuerso):Dinosaurios(nombre,altura,peso,fecha,sexo,longitud){
+	this->LongitudCuernos=LongitudCuernos;
+	this->longitudCuerso=longitudCuerso;
+	this->nombre=nombre;
+	this->altura=altura;
+	this->peso=peso;
+	this->fecha=fecha;
+	this->sexo=sexo;
+	this->longitud=longitud;
+}
+Triceraptor::Triceraptor(){
+
+}void Triceraptor::setLongitudCuernos(int LongitudCuernos){
+   this-> LongitudCuernos=LongitudCuernos;
+}
+int Triceraptor::getLongitudCuernos(){
+   return LongitudCuernos;
+}
+void Triceraptor::setLongitudCuerso(int longitudCuerso){
+   this-> longitudCuerso=longitudCuerso;
+}
+int Triceraptor::getLongitudCuerso(){
+   return longitudCuerso;
+}

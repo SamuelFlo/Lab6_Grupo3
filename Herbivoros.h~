@@ -1,0 +1,24 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include "Dinosaurios.h"
+
+using namespace std;
+
+#ifndef HERBIVOROS_H
+#define HERBIVOROS_H
+class Herbivoros: public Dinosaurios{
+	protected:
+		string Tipo;
+		int NumeroIncisivos;
+	public:
+		Herbivoros(string,string);
+		Herbivoros();
+		string getTipo();
+		void setTipo(string);
+
+		string getNumeroIncisivos();
+		void setNumeroIncisivos(string);
+
+};
+#endif

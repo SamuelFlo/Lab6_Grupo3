@@ -1,0 +1,20 @@
+#include "Aereos.h"
+
+Aereos::Aereos(bool Vuela,bool Plumas){
+	this->Vuela=Vuela;
+	this->Plumas=Plumas;
+}
+Aereos::Aereos(){
+
+}void Aereos::setVuela(bool Vuela){
+   this-> Vuela=Vuela;
+}
+bool Aereos::getVuela(){
+   return Vuela;
+}
+void Aereos::setPlumas(bool Plumas){
+   this-> Plumas=Plumas;
+}
+bool Aereos::getPlumas(){
+   return Plumas;
+}
